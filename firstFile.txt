@@ -2,8 +2,8 @@
 02 upd_1_git_1
 03 upd_2_git_1
 04 upd_2_git_1
-05
-06
+05 upd_clone_git_1
+06 upd_clone_git_1
 07
 08
 09
