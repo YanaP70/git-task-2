@@ -1,0 +1,47 @@
+6162279 HEAD@{0}: rebase (finish): returning to refs/heads/git_3
+6162279 HEAD@{1}: rebase (fixup): added lines 01 - 05 to file doubtingFile.txt
+620d67a HEAD@{2}: rebase (fixup): # This is a combination of 4 commits.
+ec63257 HEAD@{3}: rebase (fixup): # This is a combination of 3 commits.
+09be5fd HEAD@{4}: rebase (fixup): # This is a combination of 2 commits.
+a5014b6 HEAD@{5}: rebase (reword): added lines 01 - 05 to file doubtingFile.txt
+6c75a80 HEAD@{6}: rebase: fast-forward
+1ce32f3 HEAD@{7}: rebase (start): checkout HEAD~5
+0b96439 HEAD@{8}: commit: added line 05 to file doubtingFile.txt
+1943616 HEAD@{9}: commit: added line 04 to file doubtingFile.txt
+a899b3d HEAD@{10}: commit: added line 03 to file doubtingFile.txt
+3698408 HEAD@{11}: commit: added line 02 to file doubtingFile.txt
+6c75a80 HEAD@{12}: commit: added line 01 to file doubtingFile.txt
+1ce32f3 HEAD@{13}: commit: added file doubtingFile.txt
+3c90494 HEAD@{14}: checkout: moving from git_task to git_3
+3c90494 HEAD@{15}: checkout: moving from git_1 to git_task
+0263a15 HEAD@{16}: reset: moving to HEAD
+0263a15 HEAD@{17}: pull: Fast-forward
+452863c HEAD@{18}: reset: moving to HEAD
+452863c HEAD@{19}: checkout: moving from git_2 to git_1
+e1dec23 HEAD@{20}: reset: moving to HEAD~2
+efcd601 HEAD@{21}: commit: added thirdFile.txt
+79de0b2 HEAD@{22}: revert: Revert "New comment to 'concatenated the last two commits: modified lines (01, 02, 03, 04) in firstFile.txt'"
+e1dec23 HEAD@{23}: commit (amend): New comment to 'concatenated the last two commits: modified lines (01, 02, 03, 04) in firstFile.txt'
+953bb27 HEAD@{24}: commit: Concatenated the last two commits: modified lines (01, 02, 03, 04) in firstFile.txt
+1f434da HEAD@{25}: reset: moving to HEAD~1
+c75448d HEAD@{26}: reset: moving to HEAD~1
+548c958 HEAD@{27}: cherry-pick: modified two lines (03, 04) in firstFile.txt
+c75448d HEAD@{28}: am: modified two lines (01, 02) in firstFile.txt
+1f434da HEAD@{29}: checkout: moving from git_1 to git_2
+452863c HEAD@{30}: checkout: moving from git_2 to git_1
+1f434da HEAD@{31}: am --abort
+1f434da HEAD@{32}: checkout: moving from git_1 to git_2
+452863c HEAD@{33}: commit: modified two lines (03, 04) in firstFile.txt
+daee3be HEAD@{34}: commit: modified two lines (01, 02) in firstFile.txt
+c1e579e HEAD@{35}: commit (merge): Merge branch 'git_2' into git_1
+ae33e36 HEAD@{36}: commit: updated two lines (29, 30) in secondFile.txt
+7a7c0ad HEAD@{37}: checkout: moving from git_2 to git_1
+1f434da HEAD@{38}: commit: updated two lines (29, 30) in secondFile.txt
+7a7c0ad HEAD@{39}: merge git_1: Fast-forward
+3c90494 HEAD@{40}: checkout: moving from git_1 to git_2
+7a7c0ad HEAD@{41}: commit: added secondFile.txt
+cc41e94 HEAD@{42}: commit: added firstFile.txt
+3c90494 HEAD@{43}: checkout: moving from master to git_1
+3c90494 HEAD@{44}: checkout: moving from git_task to master
+3c90494 HEAD@{45}: checkout: moving from master to git_task
+3c90494 HEAD@{46}: commit (initial): initial commit

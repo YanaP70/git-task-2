@@ -1,0 +1,217 @@
+------------------------------------------task 2.09 - 2.10
+Yana@DESKTOP-RK29JLO MINGW64 /d/epam/laba/task-git/git-task-2 (git_2)
+$ git log
+commit 548c95807ff970f6eba426970c4e282ba0957deb (HEAD -> git_2)
+Author: Yana Podoliak <yana.podolyak@gmail.com>
+Date:   Fri Dec 2 13:59:45 2022 +0200
+
+    modified two lines (03, 04) in firstFile.txt
+
+commit c75448d49e76b7e54722572dc764dc8faa93879b
+Author: Yana Podoliak <yana.podolyak@gmail.com>
+Date:   Fri Dec 2 13:58:36 2022 +0200
+
+    modified two lines (01, 02) in firstFile.txt
+
+commit 1f434da5d6136f108d681c204a2c47f59e40a6d2
+Author: Yana Podoliak <yana.podolyak@gmail.com>
+Date:   Fri Dec 2 13:50:24 2022 +0200
+
+    updated two lines (29, 30) in secondFile.txt
+
+commit 7a7c0adc2b1bc8a663639ab4dfbbd1e2818ab682
+Author: Yana Podoliak <yana.podolyak@gmail.com>
+Date:   Fri Dec 2 13:47:14 2022 +0200
+
+    added secondFile.txt
+:
+------------------------------------------------------ task 2.11
+Yana@DESKTOP-RK29JLO MINGW64 /d/epam/laba/task-git/git-task-2 (git_2)
+$ git log
+commit 953bb27d6dfcbc90fc38421f2718ecbfb3bc9375 (HEAD -> git_2)
+Author: Yana Podoliak <yana.podolyak@gmail.com>
+Date:   Fri Dec 2 14:33:05 2022 +0200
+
+    Concatenated the last two commits: modified lines (01, 02, 03, 04) in firstFile.txt
+
+commit 1f434da5d6136f108d681c204a2c47f59e40a6d2
+Author: Yana Podoliak <yana.podolyak@gmail.com>
+Date:   Fri Dec 2 13:50:24 2022 +0200
+
+    updated two lines (29, 30) in secondFile.txt
+
+commit 7a7c0adc2b1bc8a663639ab4dfbbd1e2818ab682
+Author: Yana Podoliak <yana.podolyak@gmail.com>
+Date:   Fri Dec 2 13:47:14 2022 +0200
+
+    added secondFile.txt
+
+commit cc41e94a068779f3b6f4771380b6c748e134fa1a
+Author: Yana Podoliak <yana.podolyak@gmail.com>
+Date:   Fri Dec 2 13:45:33 2022 +0200
+
+----------------------------------------------------------- task 2.12
+Yana@DESKTOP-RK29JLO MINGW64 /d/epam/laba/task-git/git-task-2 (git_2)
+$ git log
+commit e1dec23d8ef3dc46a4e639190048cf69fd3883b7 (HEAD -> git_2)
+Author: Y P <polyak@ua.fm>
+Date:   Fri Dec 2 14:42:29 2022 +0200
+
+    New comment to 'concatenated the last two commits: modified lines (01, 02, 03, 04) in firstFile.txt'
+
+commit 1f434da5d6136f108d681c204a2c47f59e40a6d2
+Author: Yana Podoliak <yana.podolyak@gmail.com>
+Date:   Fri Dec 2 13:50:24 2022 +0200
+
+    updated two lines (29, 30) in secondFile.txt
+
+commit 7a7c0adc2b1bc8a663639ab4dfbbd1e2818ab682
+Author: Yana Podoliak <yana.podolyak@gmail.com>
+Date:   Fri Dec 2 13:47:14 2022 +0200
+
+    added secondFile.txt
+
+commit cc41e94a068779f3b6f4771380b6c748e134fa1a
+Author: Yana Podoliak <yana.podolyak@gmail.com>
+Date:   Fri Dec 2 13:45:33 2022 +0200
+-------------------------------------------------------------------- task 2.13
+Yana@DESKTOP-RK29JLO MINGW64 /d/epam/laba/task-git/git-task-2 (git_2)
+$ git log
+commit 79de0b212f22513a1bd5edd99241ab5a0a1ffc55 (HEAD -> git_2)
+Author: Yana Podoliak <yana.podolyak@gmail.com>
+Date:   Fri Dec 2 14:44:25 2022 +0200
+
+    Revert "New comment to 'concatenated the last two commits: modified lines (01, 02, 03, 04) in firstFile.txt'"
+
+    This reverts commit e1dec23d8ef3dc46a4e639190048cf69fd3883b7.
+
+commit e1dec23d8ef3dc46a4e639190048cf69fd3883b7
+Author: Y P <polyak@ua.fm>
+Date:   Fri Dec 2 14:42:29 2022 +0200
+
+    New comment to 'concatenated the last two commits: modified lines (01, 02, 03, 04) in firstFile.txt'
+
+commit 1f434da5d6136f108d681c204a2c47f59e40a6d2
+Author: Yana Podoliak <yana.podolyak@gmail.com>
+Date:   Fri Dec 2 13:50:24 2022 +0200
+
+    updated two lines (29, 30) in secondFile.txt
+
+commit 7a7c0adc2b1bc8a663639ab4dfbbd1e2818ab682
+------------------------------------------------------ task 2.14
+Yana@DESKTOP-RK29JLO MINGW64 /d/epam/laba/task-git/git-task-2 (git_2)
+$ git log
+commit efcd601ca24c5dfb067608e4155816ad8f92b718 (HEAD -> git_2)
+Author: Yana Podoliak <yana.podolyak@gmail.com>
+Date:   Fri Dec 2 14:46:57 2022 +0200
+
+    added thirdFile.txt
+
+commit 79de0b212f22513a1bd5edd99241ab5a0a1ffc55
+Author: Yana Podoliak <yana.podolyak@gmail.com>
+Date:   Fri Dec 2 14:44:25 2022 +0200
+
+    Revert "New comment to 'concatenated the last two commits: modified lines (01, 02, 03, 04) in firstFile.txt'"
+
+    This reverts commit e1dec23d8ef3dc46a4e639190048cf69fd3883b7.
+
+commit e1dec23d8ef3dc46a4e639190048cf69fd3883b7
+Author: Y P <polyak@ua.fm>
+Date:   Fri Dec 2 14:42:29 2022 +0200
+
+    New comment to 'concatenated the last two commits: modified lines (01, 02, 03, 04) in firstFile.txt'
+
+commit 1f434da5d6136f108d681c204a2c47f59e40a6d2
+:
+---------------------------------------------- task2.15
+Yana@DESKTOP-RK29JLO MINGW64 /d/epam/laba/task-git/git-task-2 (git_2)
+$ git log
+commit e1dec23d8ef3dc46a4e639190048cf69fd3883b7 (HEAD -> git_2)
+Author: Y P <polyak@ua.fm>
+Date:   Fri Dec 2 14:42:29 2022 +0200
+
+    New comment to 'concatenated the last two commits: modified lines (01, 02, 03, 04) in firstFile.txt'
+
+commit 1f434da5d6136f108d681c204a2c47f59e40a6d2
+Author: Yana Podoliak <yana.podolyak@gmail.com>
+Date:   Fri Dec 2 13:50:24 2022 +0200
+
+    updated two lines (29, 30) in secondFile.txt
+
+commit 7a7c0adc2b1bc8a663639ab4dfbbd1e2818ab682
+Author: Yana Podoliak <yana.podolyak@gmail.com>
+Date:   Fri Dec 2 13:47:14 2022 +0200
+
+    added secondFile.txt
+
+commit cc41e94a068779f3b6f4771380b6c748e134fa1a
+Author: Yana Podoliak <yana.podolyak@gmail.com>
+Date:   Fri Dec 2 13:45:33 2022 +0200
+
+:
+-------------------------------------------- task 2 2.4
+Yana@DESKTOP-RK29JLO MINGW64 /d/epam/laba/task-git/git-task-2 (git_3)
+$ git log
+commit 0b964391f5965b2d480a9b3ec5b25ed27d5143c4 (HEAD -> git_3)
+Author: Yana Podoliak <yana.podolyak@gmail.com>
+Date:   Fri Dec 2 15:17:22 2022 +0200
+
+    added line 05 to file doubtingFile.txt
+
+commit 19436167a3e4ead1dbb6f6f16e45ea7b1e185a78
+Author: Yana Podoliak <yana.podolyak@gmail.com>
+Date:   Fri Dec 2 15:17:02 2022 +0200
+
+    added line 04 to file doubtingFile.txt
+
+commit a899b3da7f0f5b5bff7438aab310487bfbcedd4c
+Author: Yana Podoliak <yana.podolyak@gmail.com>
+Date:   Fri Dec 2 15:16:42 2022 +0200
+
+    added line 03 to file doubtingFile.txt
+
+commit 3698408313eb6ed031317478712fb6dc98414f59
+Author: Yana Podoliak <yana.podolyak@gmail.com>
+Date:   Fri Dec 2 15:16:19 2022 +0200
+
+    added line 02 to file doubtingFile.txt
+
+commit 6c75a80c04214f63d58676fbda573733a88be0ee
+Author: Yana Podoliak <yana.podolyak@gmail.com>
+Date:   Fri Dec 2 15:15:54 2022 +0200
+
+    added line 01 to file doubtingFile.txt
+
+commit 1ce32f30785b19f3bbb526e0b52fdcc3608a3647
+Author: Yana Podoliak <yana.podolyak@gmail.com>
+Date:   Fri Dec 2 15:15:15 2022 +0200
+
+    added file doubtingFile.txt
+
+commit 3c9049467757b79e9ab2f08cc8f374530ecdb0c8 (origin/master, origin/git_task, master, git_task)
+Author: Yana Podoliak <yana.podolyak@gmail.com>
+Date:   Fri Dec 2 13:39:53 2022 +0200
+
+    initial commit
+
+---------------------------------------------task 2 2.5
+Yana@DESKTOP-RK29JLO MINGW64 /d/epam/laba/task-git/git-task-2 (git_3)
+$ git log
+commit 6162279ee2616cc5efcce1a08e7062fa6809800e (HEAD -> git_3)
+Author: Yana Podoliak <yana.podolyak@gmail.com>
+Date:   Fri Dec 2 15:15:54 2022 +0200
+
+    added lines 01 - 05 to file doubtingFile.txt
+
+commit 1ce32f30785b19f3bbb526e0b52fdcc3608a3647
+Author: Yana Podoliak <yana.podolyak@gmail.com>
+Date:   Fri Dec 2 15:15:15 2022 +0200
+
+    added file doubtingFile.txt
+
+commit 3c9049467757b79e9ab2f08cc8f374530ecdb0c8 (origin/master, origin/git_task, master, git_task)
+Author: Yana Podoliak <yana.podolyak@gmail.com>
+Date:   Fri Dec 2 13:39:53 2022 +0200
+
+    initial commit
+

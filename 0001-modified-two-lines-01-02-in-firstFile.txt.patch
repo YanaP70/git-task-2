@@ -1,0 +1,24 @@
+From daee3be7d15612b815f8c51224a876e6a51eb62d Mon Sep 17 00:00:00 2001
+From: Yana Podoliak <yana.podolyak@gmail.com>
+Date: Fri, 2 Dec 2022 13:58:36 +0200
+Subject: [PATCH 1/2] modified two lines (01, 02) in firstFile.txt
+
+---
+ firstFile.txt | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/firstFile.txt b/firstFile.txt
+index bce7098..8ce4c02 100644
+--- a/firstFile.txt
++++ b/firstFile.txt
+@@ -1,5 +1,5 @@
+-01
+-02
++01 upd_1_git_1
++02 upd_1_git_1
+ 03
+ 04
+ 05
+-- 
+2.32.0.windows.2
+

@@ -1,0 +1,153 @@
+    1  git clone git@github.com:YanaP70/git-task-2.git
+    2  cd git-task-2
+    3  touch README.md
+    4  vi readme.md
+    5  git status
+    6  git add .
+    7  git commit -m "initial commit"
+    8  git checkout -b git_task
+    9  git branch git_1
+   10  git branch git_2
+   11  git branch -v
+   12  checkout master
+   13  git checkout master
+   14  git branch -v
+   15  git push --all -u
+   16  git branch -v
+   17  git branch -a
+   18  git checkout git_1
+   19  touch firstFile.txt
+   20  vi firstFile.txt
+   21  git sttus
+   22  git status
+   23  git add .
+   24  git commit -m "added firstFile.txt"
+   25  touch secondFile.txt
+   26  vi secondFile.txt
+   27  git status
+   28  git add .
+   29  git commit -m "added secondFile.txt"
+   30  git checkout git_2
+   31  git merge git_1
+   32  vi secondFile.txt
+   33  git status
+   34  git add .
+   35  git commit -m "updated two lines (29, 30) in secondFile.txt"
+   36  git checkout git_1
+   37  vi secondFile.txt
+   38  git status
+   39  git diff
+   40  git add .
+   41  git commit -m "updated two lines (29, 30) in secondFile.txt"
+   42  git merge git_2
+   43  vi secondFile.txt
+   44  git diff
+   45  git status
+   46  git add .
+   47  git commit
+   48  vi firstFile.txt
+   49  git diff
+   50  git add .
+   51  git commit -m "modified two lines (01, 02) in firstFile.txt"
+   52  vi firstFile.txt
+   53  git diff
+   54  git add .
+   55  git commit -m "modified two lines (03, 04) in firstFile.txt"
+   56  git log
+   57  git format-patch daee3
+   58  git checkout git_2
+   59  git am 0001-modified-two-lines-03-04-in-firstFile.txt.patch
+   60  git am --abort
+   61  git checkout git_1
+   62  git log
+   63  q
+   64  git format-patch c1e579
+   65  git clean -f 0002-modified-two-lines-03-04-in-firstFile.txt.patch
+   66  git checkout git_2
+   67  git am 0001-modified-two-lines-01-02-in-firstFile.txt.patch
+   68  git cherry-pick 452863
+   69  git log
+   70  git reset --soft HEAD~1
+   71  git reset --soft HEAD~1
+   72  git status
+   73  vi firstFile.txt
+   74  git commit -m "Concatenated the last two commits: modified lines (01, 02, 03, 04) in firstFile.txt"
+   75  git log
+   76  touch thirdFile.txt
+   77  vi thirdFile.txt
+   78  git status
+   79  git add thirdFile.txt
+   80  git status
+   81  git commit --amend --author="Y P <polyak@ua.fm>" --date=now -m "New comment to 'concatenated the last two commits: modified lines (01, 02, 03, 04) in firstFile.txt'"
+   82  git log
+   83  git revert e1dec
+   84  git log
+   85  ls -l
+   86  touch thirdFile.txt
+   87  vi thirdfile.txt
+   88  git add thirdFile.txt
+   89  git status
+   90  git commit -m "added thirdFile.txt"
+   91  git log
+   92  git reset --hard HEAD~2
+   93  git log
+   94  git push -u
+   95  git checkout git_1
+   96  git push -u
+   97  cd ..
+   98  mkdir newfolder
+   99  git clone git@github.com:YanaP70/git-task-2.git newfolder
+  100  cd newfolder
+  101  git checkout git_1
+  102  vi firstFile.txt
+  103  git status
+  104  git add .
+  105  git commit -m "Modified two lines in firstFile.txt by clone of project"
+  106  git push -u
+  107  cd ..
+  108  cd git-task-2
+  109  vi firstFile.txt
+  110  vi firstFile.txt
+  111  git status
+  112  git stash save "ff"
+  113  git status
+  114  git pull
+  115  vi firstFile.txt
+  116  git push
+  117  git stash pop
+  118  git status
+  119  git stash save "ff"
+  120  git status
+  121  git checkout git_task
+  122  git add firstFile.txt
+  123  git status
+  124  git checkout git_task
+  125  git stash save "ff"
+  126  git checkout git_task
+  127  git checkout -b git_3
+  128  touch doubtingFile.txt
+  129  vi doubtingFile.txt
+  130  git status
+  131  git add doubtingFile.txt
+  132  git status
+  133  git commit -m "added file doubtingFile.txt"
+  134  vi doubtingFile.txt
+  135  git add doubtingFile.txt
+  136  git commit -m "added line 01 to file doubtingFile.txt"
+  137  vi doubtingFile.txt
+  138  git add doubtingFile.txt
+  139  git commit -m "added line 02 to file doubtingFile.txt"
+  140  vi doubtingFile.txt
+  141  git add doubtingFile.txt
+  142  git commit -m "added line 03 to file doubtingFile.txt"
+  143  vi doubtingFile.txt
+  144  git add doubtingFile.txt
+  145  git commit -m "added line 04 to file doubtingFile.txt"
+  146  vi doubtingFile.txt
+  147  git add doubtingFile.txt
+  148  git commit -m "added line 05 to file doubtingFile.txt"
+  149  git log
+  150  git log
+  151  git rebase -i HEAD~5
+  152  git log
+  153  history >> history.txt
